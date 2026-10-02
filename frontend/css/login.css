@@ -1,0 +1,230 @@
+/* ===========================
+   LOGIN PAGE
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+.login-container{
+
+    width:950px;
+
+    background:white;
+
+    display:flex;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.2);
+
+}
+
+/* LEFT */
+
+.login-left{
+
+    flex:1;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:70px 50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.login-left h1{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.login-left p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#e2e8f0;
+
+}
+
+/* RIGHT */
+
+.login-right{
+
+    flex:1;
+
+    padding:60px;
+
+}
+
+.login-right h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#1e293b;
+
+}
+
+.input-box{
+
+    margin-bottom:25px;
+
+}
+
+.input-box label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.input-box input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.input-box input:focus{
+
+    border-color:#2563eb;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.register-link{
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+
+.register-link a{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.back-home{
+
+    text-align:center;
+
+    margin-top:15px;
+
+}
+
+.back-home a{
+
+    text-decoration:none;
+
+    color:#64748b;
+
+}
+
+.back-home a:hover{
+
+    color:#2563eb;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.login-container{
+
+    flex-direction:column;
+
+    width:95%;
+
+}
+
+.login-left{
+
+    text-align:center;
+
+}
+
+.login-right{
+
+    padding:40px 25px;
+
+}
+
+}

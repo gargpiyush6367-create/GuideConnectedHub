@@ -1,0 +1,248 @@
+/* ===========================
+   REGISTER PAGE
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+.register-container{
+
+    width:1100px;
+
+    background:white;
+
+    display:flex;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.2);
+
+}
+
+/* LEFT PANEL */
+
+.register-left{
+
+    width:35%;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:60px 40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.register-left h1{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.register-left p{
+
+    color:#e2e8f0;
+
+    line-height:1.8;
+
+}
+
+/* RIGHT PANEL */
+
+.register-right{
+
+    width:65%;
+
+    padding:50px;
+
+    max-height:90vh;
+
+    overflow-y:auto;
+
+}
+
+.register-right h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#1e293b;
+
+}
+
+.input-box{
+
+    margin-bottom:20px;
+
+}
+
+.input-box label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.input-box input,
+.input-box select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:10px;
+
+    outline:none;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+.input-box input:focus,
+.input-box select:focus{
+
+    border-color:#2563eb;
+
+}
+
+/* Expert Section */
+
+#expertFields{
+
+    margin-top:20px;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    background:#f8fafc;
+
+    border:1px solid #e2e8f0;
+
+}
+
+/* Button */
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    margin-top:10px;
+
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.login-link{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.login-link a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-weight:600;
+
+}
+
+.login-link a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.register-container{
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+.register-left{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.register-right{
+
+    width:100%;
+
+    max-height:none;
+
+}
+
+}

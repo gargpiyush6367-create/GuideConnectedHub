@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Meeting | ExpertConnect</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/booking.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<a href="index.html">ExpertConnect</a>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="expert-list.html">Experts</a></li>
+
+<li><a href="my-bookings.html">My Bookings</a></li>
+
+<li><a href="index.html">Home</a></li>
+
+</ul>
+
+</nav>
+
+<section class="booking">
+
+<h1>Book Meeting</h1>
+
+<form id="bookingForm">
+
+<div class="input-group">
+
+<label>Expert Name</label>
+
+<input
+type="text"
+value="Dr. Rahul Sharma"
+readonly>
+
+</div>
+
+<div class="input-group">
+
+<label>Select Date</label>
+
+<input
+type="date"
+id="meetingDate"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Select Time</label>
+
+<input
+type="time"
+id="meetingTime"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Meeting Duration</label>
+
+<select id="duration">
+
+<option>15 Minutes</option>
+
+<option>30 Minutes</option>
+
+<option>45 Minutes</option>
+
+<option>60 Minutes</option>
+
+</select>
+
+</div>
+
+<div class="input-group">
+
+<label>Purpose of Meeting</label>
+
+<textarea
+rows="5"
+id="agenda"
+placeholder="Write your purpose..."></textarea>
+
+</div>
+
+<h2>
+
+Meeting Fee : ₹500
+
+</h2>
+
+<button type="submit">
+
+Book Meeting
+
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 ExpertConnect
+
+</p>
+
+</footer>
+
+<script src="js/booking.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+/* ==========================
+      TABLET
+========================== */
+
+@media(max-width:992px){
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+}
+
+.hero-left p{
+
+    width:100%;
+
+}
+
+.nav-links{
+
+    display:none;
+
+}
+
+.statistics{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.steps{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/* ==========================
+      MOBILE
+========================== */
+
+@media(max-width:768px){
+
+h1{
+
+    font-size:2.4rem;
+
+}
+
+h2{
+
+    font-size:2rem;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.search-box{
+
+    flex-direction:column;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+}
+
+.search-box button{
+
+    width:100%;
+
+    margin-top:10px;
+
+}
+
+.statistics{
+
+    grid-template-columns:1fr;
+
+}
+
+.steps{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+}
